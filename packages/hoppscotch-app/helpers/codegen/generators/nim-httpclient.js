@@ -8,7 +8,7 @@ const printHeaders = (headers) => {
   return []
 }
 
-export const PythonRequestsCodegen = {
+export const NimHttpClientCodegen = {
   id: "nim-httpclient",
   name: "Nim HttpClient",
   language: "nim",
