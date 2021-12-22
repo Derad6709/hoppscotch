@@ -2,7 +2,7 @@ import { isJSONContentType } from "~/helpers/utils/contenttypes"
 
 const printHeaders = (headers) => {
   if (headers.length) {
-    return [`let headers = newHttpHeaders({\n`, `  ${headers.join(",\n  ")}\n`, `}\n)`]
+    return [`client.headers = newHttpHeaders({\n`, `  ${headers.join(",\n  ")}\n`, `}\n)`]
   }
 
   return []
