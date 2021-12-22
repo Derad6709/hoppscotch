@@ -9,9 +9,9 @@ const printHeaders = (headers) => {
 }
 
 export const PythonRequestsCodegen = {
-  id: "python-requests",
-  name: "Python Requests",
-  language: "python",
+  id: "nim-httpclient",
+  name: "Nim HttpClient",
+  language: "nim",
   generator: ({
     url,
     pathName,
