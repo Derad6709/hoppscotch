@@ -7,6 +7,7 @@ import { EffectiveHoppRESTRequest } from "../utils/EffectiveURL"
 import { CLibcurlCodegen } from "./generators/c-libcurl"
 import { CsRestsharpCodegen } from "./generators/cs-restsharp"
 import { CurlCodegen } from "./generators/curl"
+import { NimHttpClientCodegen } from "./generators/nim-httpclient"
 import { GoNativeCodegen } from "./generators/go-native"
 import { JavaOkhttpCodegen } from "./generators/java-okhttp"
 import { JavaUnirestCodegen } from "./generators/java-unirest"
@@ -40,6 +41,7 @@ export const codegens = [
   CLibcurlCodegen,
   CsRestsharpCodegen,
   CurlCodegen,
+  NimHttpClientCodegen,
   GoNativeCodegen,
   JavaOkhttpCodegen,
   JavaUnirestCodegen,
